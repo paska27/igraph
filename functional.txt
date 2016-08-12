@@ -1,0 +1,26 @@
+canvas:
+
+- db click canvas -> add new iblock -> edit mode:
+    - default text: "Name" and is selected
+    - possible to add new line
+    - while text area expanding horizontally / vertically, so as iblock container
+    - default status: "todo"
+
+- click iblock:
+    - show checkbox
+        - on check:
+            - status="done"
+            - afollowers: status="todo"
+
+- d&d iblock:
+    - move on the canvas
+    - adjust edges respectively
+
+- hover iblock border:
+    - highlith it (bold)
+
+- d&d iblock border:
+    - make new edge while dragging
+    - drop canvas: cancel edge
+    - drop other iblock: connect two blocks with edge
+    - other iblock status="blocked"
